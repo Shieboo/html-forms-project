@@ -1,0 +1,256 @@
+html {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+  background: #eceef1;
+}
+
+a {
+  font-size: 12px;
+  color: #0077c5;
+  text-decoration: none;
+}
+
+.navbar {
+  height: 60px;
+  padding: 10px 30px 10px 30px;
+}
+
+.nav-container {
+  font-size: 12px;
+  line-height: 1.5;
+  float: right;
+  color: #505050;
+}
+
+.nav-column {
+  float: left;
+  margin-left: 10px;
+  text-align: right;
+}
+
+.sign-in-btn {
+  height: 34px;
+  padding: 0 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.125em;
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  outline: none;
+}
+
+.white-lock-img {
+  height: 1em;
+  width: .8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(assets/images/icon-whitelock@3x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  border-bottom-style: solid;
+  border-bottom-width: 0;
+  border-bottom-color: transparent;
+}
+
+.logo-container {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.logo-link {
+  display: block;
+  margin: 0 auto;
+  background-position: 0 0;
+  width: 118px;
+  height: 35px;
+  background-image: url(assets/images/ecosystem_logos_new.png);
+}
+
+.main {
+  display: block;
+  padding-top: 20px;
+}
+
+.main-container {
+  padding: 0;
+}
+
+.sign-up-container {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  margin: auto;
+  padding: 30px;
+  width: 330px;
+}
+
+.sign-up-logo-header {
+  padding-bottom: 4px;
+  padding-top: 0;
+}
+
+.sign-up-logo-container {
+  margin: 0;
+  width: 100%;
+}
+
+.sign-up-logo-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.turbotax-logo {
+  display: inline-block;
+  width: 101px;
+  height: 23px;
+  background-image: url(assets/images/ecosystem_logos_new.png);
+  background-position: 0 27px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.quickbooks-logo {
+  display: inline-block;
+  width: 126px;
+  height: 23px;
+  background-image: url(assets/images/ecosystem_logos_new.png);
+  background-position: 343px 27px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.mint-logo {
+  display: inline-block;
+  width: 64px;
+  height: 23px;
+  background-image: url(assets/images/ecosystem_logos_new.png);
+  background-position: 204px 27px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.sign-up-separator {
+  height: 1px;
+  border: 0;
+  margin: 15px 0;
+  padding: 0;
+  border-top: 1px solid #e2e1e1;
+}
+
+.sign-up-header-container {
+  text-align: center;
+  padding-bottom: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sign-up-header {
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
+}
+
+.sign-up-subheader {
+  color: #4c4c4c;
+  line-height: 1.2;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+fieldset {
+  height: 95px;
+}
+
+.label {
+  font-size: 14px;
+  color: #404040;
+  padding-bottom: 6px;
+  line-height: 25px;
+}
+
+.text-input-container {
+  position: relative;
+  width: 320px;
+  min-width: 160px;
+  height: 30px;
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
+  font-size: 1.2em;
+  padding-left: 8px;
+  padding-right: 6px;
+}
+
+.info-phone {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+}
+
+.password-input {
+  width: 324px;
+  height: 28px;
+  border: none;
+  border-radius: 3px;
+}
+
+.lock-grey {
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  background: url(assets/images/lock-left-grey@3x.png) 0 50%/21px 21px no-repeat;
+  height: 32px;
+  width: 33px;
+}
+
+.sign-up-submit {
+  width: 100%;
+  height: 44px;
+  color: #fff;
+  background: #0077c5;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .75);
+  display: inline-block;
+  padding: 6px 12px;
+  border-color: #0077C5;
+  border-radius: 4px;
+  font-size: 1.5em;
+}
+
+.agreement {
+  padding-top: 30px;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: #bbb;
+  line-height: 21px;
+}
+
+.footer {
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 2;
+  color: #505050;
+}
+
+.logo-link-small {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-position: 0 0;
+  width: 82px;
+  height: 35px;
+  background-image: url(assets/images/intuit_grey.svg);
+  background-size: cover;
+}
